@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.wrapper {
+    display: flex;
+
+}
+.sidebar {
+    background-color: antiquewhite;
+    flex: 0 0 200px;
+}
+.main {
+    background-color: aquamarine;
+    flex: 1 1 0;
+
+}
+.main:hover {
+    background-color: beige;
+}
+.container {
+    background-color: blueviolet;
+    max-width: 600px;
+    margin: 0 auto;
+}
